@@ -18,6 +18,10 @@ module.exports = {
         "primary-black": "#222222",
         "primary-green": "#5BBB7B",
         "primary-dark-green": "#1F4B3F",
+        "primary-gray": "#E9E9E9",
+        "muted": "#6B7177",
+        "yellow": "#E1C03F",
+        "pink": "#FFEDE8",
       }
     },
   },
