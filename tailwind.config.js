@@ -10,6 +10,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header-background': "url('/header_background.jpg')",
+        'freelance-background': "url('/freelance_bg.jpg')",
+        'workflow-background': "url('/work_flow_bg.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
@@ -22,7 +24,10 @@ module.exports = {
         "muted": "#6B7177",
         "yellow": "#E1C03F",
         "pink": "#FFEDE8",
-      }
+      },
+      boxShadow: {
+        "flow-card": "0px 6px 15px 0px rgb(64 79 104 / 9%)",
+      },
     },
   },
   plugins: [],

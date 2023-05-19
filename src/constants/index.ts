@@ -1,4 +1,10 @@
-import { CategoryType, FreelancerType, NavItemType } from "@/types";
+import {
+  CategoryType,
+  FreelancerType,
+  NavItemType,
+  ProjectType,
+  ServiceType,
+} from "@/types";
 import {
   MdOutlineDesignServices,
   MdLanguage,
@@ -200,4 +206,300 @@ const categoryList: CategoryType[] = [
   },
 ];
 
-export { navItems, freelancerList, categoryList };
+const projectList: ProjectType[] = [
+  {
+    id: 1,
+    name: "Food Delivery Mobile App on IOS and Android",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    duration: "2 -3 Hours",
+    englishLevel: "Conversational",
+    level: "Fluent",
+    language: "English",
+    location: "New York",
+    locationType: "Onsite",
+    priceEnd: 20,
+    priceStart: 30,
+    projectType: "fixed",
+    requiredSkills: [
+      "Adobe Photoshop",
+      " Adobe XD",
+      "Android Developer",
+      "Computer",
+    ],
+    sinceJoin: "November 10, 2022",
+    views: 200,
+    company: {
+      category: "Business",
+      employeeEnd: 10,
+      employeeStart: 20,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer5.jpg",
+      location: "New York",
+      name: "DesignBlue",
+      rating: 4.5,
+    },
+  },
+  {
+    id: 2,
+    name: "Developer for ACG iOS apps and Website",
+    description:
+      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+    duration: "November 10, 2022",
+    englishLevel: "Professional",
+    level: "Fluent",
+    language: "Italian",
+    location: "Miami",
+    locationType: "Remote",
+    priceEnd: 79,
+    priceStart: 89,
+    projectType: "hourly",
+    requiredSkills: [
+      "Artist",
+      "Front end Developer",
+      "IOS Developer",
+      "Writter",
+    ],
+    sinceJoin: " November 10, 2022",
+    views: 232,
+    company: {
+      category: "Designer",
+      employeeEnd: 50,
+      employeeStart: 60,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer4.jpg",
+      location: "New York",
+      name: "APInter",
+      rating: 4.5,
+    },
+  },
+  {
+    id: 3,
+    name: "English Content Writer for College",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    duration: "1 Day",
+    englishLevel: "Fluent",
+    level: "Native",
+    language: "English",
+    location: "Los Angeles",
+    locationType: "Partial Onsite",
+    priceEnd: 29,
+    priceStart: 39,
+    projectType: "fixed",
+    requiredSkills: [
+      "Computer",
+      "Artist",
+      "Support Agent",
+      "IOS Developer",
+      "Writter",
+    ],
+    sinceJoin: "",
+    views: 234,
+    company: {
+      category: "Digital Marketing",
+      employeeEnd: 34,
+      employeeStart: 80,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer1.jpg",
+      location: "Los Angeles",
+      name: "MediaAZ",
+      rating: 3.6,
+    },
+  },
+  {
+    id: 4,
+    name: "Developer to framework for web agency",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    duration: "2 -3 Hours",
+    englishLevel: "Conversational",
+    level: "Native",
+    language: "English",
+    location: "New York",
+    locationType: "Remote",
+    priceEnd: 67,
+    priceStart: 90,
+    projectType: "hourly",
+    requiredSkills: ["HTML", "CSS", "Javascript"],
+    sinceJoin: "November 10, 2022",
+    views: 236,
+    company: {
+      category: "Writing & Translation",
+      employeeEnd: 40,
+      employeeStart: 80,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer8.png",
+      location: "New York",
+      name: "Redesign",
+      rating: 4.5,
+    },
+  },
+  {
+    id: 5,
+    name: "PHP, Javascript Projects for Beginners",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    duration: "2 -3 Days",
+    englishLevel: "Native Or Bilingual",
+    level: "Basic level",
+    language: "English",
+    location: "India",
+    locationType: "Remote",
+    priceEnd: 67,
+    priceStart: 98,
+    projectType: "fixed",
+    requiredSkills: ["PHP", "Jquery", "Bootstrrap", "Tailwind CSS"],
+    sinceJoin: "November 10, 2022",
+    views: 200,
+    company: {
+      category: "Digital Marketing",
+      employeeEnd: 60,
+      employeeStart: 90,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/11/employer11.jpg",
+      location: "New York",
+      name: "Employer",
+      rating: 3.1,
+    },
+  },
+];
+
+const serviceList: ServiceType[] = [
+  {
+    id: 1,
+    description: "Flexibility & Customization with CMS vs PHP Framework",
+    deliveryTime: "2 Days",
+    category: "Developement & IT",
+    englishLevel: "Native Or Bilingual",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/elementor/thumbs/service10-py2khwd9b307cpru7zo4vne3y7r9bf2fwt3v6dbncw.jpg",
+    location: "New York",
+    priceStart: 40,
+    rating: 3.5,
+    review: 3,
+    title: "Flexibility & Customization with CMS vs PHP Framework",
+    views: 123,
+    company: {
+      id: 1,
+      category: "Design & Creative",
+      priceStart: 20,
+      priceEnd: 10,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/8-150x150.jpg",
+      location: "Los Angeles",
+      name: "Thomas Powell",
+      rating: 4.0,
+    },
+  },
+  {
+    id: 1,
+    category: "UI/UX Designer",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    deliveryTime: "2 Days",
+    englishLevel: "Fluent",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/elementor/thumbs/service9-py2khwd9b307cpru7zo4vne3y7r9bf2fwt3v6dbncw.jpg",
+    location: "New York",
+    priceStart: 158,
+    rating: 4.5,
+    review: 7,
+    title: "PHP framework that you can use to create your own custom",
+    views: 200,
+    company: {
+      id: 1,
+      category: "UI/UX Designer",
+      priceStart: 15,
+      priceEnd: 25,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/09/bg-video-150x150.png",
+      location: "Los Angeles",
+      name: "Ali Tufan",
+      rating: 4.5,
+    },
+  },
+  {
+    id: 1,
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    category: "UI/UX Designer",
+    deliveryTime: "2 Days",
+    englishLevel: "Conversational",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/elementor/thumbs/service13-py2khwd9b307cpru7zo4vne3y7r9bf2fwt3v6dbncw.jpg",
+    location: "New York",
+    priceStart: 89,
+    rating: 4.2,
+    review: 7,
+    title: "Management software to help you manage your mobile workers",
+    views: 123,
+    company: {
+      id: 1,
+      category: "UI/UX Designer",
+      priceStart: 68,
+      priceEnd: 88,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/09/bg-video-150x150.png",
+      location: "New York",
+      name: "Ali Tufan",
+      rating: 3.6,
+    },
+  },
+  {
+    id: 1,
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    category: "Developement & IT",
+    deliveryTime: "2 Month",
+    englishLevel: "Conversational",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/elementor/thumbs/service12-py2khwd9b307cpru7zo4vne3y7r9bf2fwt3v6dbncw.jpg",
+    location: "New York",
+    priceStart: 29,
+    rating: 4.2,
+    review: 15,
+    title: "Web development, with HTML, CSS, JavaScript and PHP",
+    views: 129,
+    company: {
+      id: 1,
+      category: "Nursing Assistan",
+      priceStart: 60,
+      priceEnd: 65,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/12-150x150.jpg",
+      location: "India",
+      name: "Agent Pakulla",
+      rating: 3.6,
+    },
+  },
+  {
+    id: 1,
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    category: "Design & Development",
+    deliveryTime: "1 Year",
+    englishLevel: "Conversational",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/elementor/thumbs/service8-py2khwd9b307cpru7zo4vne3y7r9bf2fwt3v6dbncw.jpg",
+    location: "New York",
+    priceStart: 126,
+    rating: 2.9,
+    review: 45,
+    title: "Developers drop the framework folder into a new parent",
+    views: 123,
+    company: {
+      id: 1,
+      category: "Product Manager",
+      priceStart: 55,
+      priceEnd: 60,
+      image:
+        "https://demoapus1.com/freeio/wp-content/uploads/2022/10/5-150x150.jpg",
+      location: "Los Angeles",
+      name: "John Powell",
+      rating: 3.0,
+    },
+  },
+];
+
+export { navItems, freelancerList, categoryList, projectList, serviceList };

@@ -8,17 +8,26 @@ export type NavItemType = {
 
 export type ServiceType = {
   id: number;
-  image: string;
   title: string;
-  isFavorite: boolean;
+  image: string;
   category: string;
-  rating: number;
   review: number;
-  user: {
+  rating: number;
+  views: number;
+  deliveryTime: string;
+  englishLevel: string;
+  location: string;
+  description: string;
+  priceStart: number;
+  company: {
     id: number;
-    name: string;
     image: string;
-    pricingStart: number;
+    name: string;
+    category: string;
+    rating: number;
+    location: string;
+    priceStart: number;
+    priceEnd: number;
   };
 };
 
@@ -58,7 +67,7 @@ export type FreelancerType = {
 };
 
 export type ProjectType = {
-  id: string;
+  id: number;
   name: string;
   location: string;
   sinceJoin: string;
@@ -73,4 +82,29 @@ export type ProjectType = {
   priceEnd: number;
   description: string;
   requiredSkills: string[];
+  company: {
+    image: string;
+    name: string;
+    category: string;
+    rating: number;
+    location: string;
+    employeeStart: number;
+    employeeEnd: number;
+  };
+};
+
+export type CompanyType = {
+  id: number;
+  name: string;
+  subtitle: string;
+  image: string;
+  rating: number;
+  location: string;
+  email: string;
+  category: string;
+  employeeStart: number;
+  employeeEnd: number;
+  foundedDate: string;
+  phone: string;
+  description: string;
 };

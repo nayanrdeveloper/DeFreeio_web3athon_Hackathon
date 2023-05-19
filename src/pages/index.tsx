@@ -4,6 +4,9 @@ import Header from "@/components/Header";
 import Services from "@/components/Services/Services";
 import Freelancer from "@/components/Freelancer/Freelancer";
 import Category from "@/components/Category/Category";
+import Projects from "@/components/Projects/Projects";
+import FreelancerBanner from "@/components/FreelanceBanner/FreelancerBanner";
+import WorkFlow from "@/components/WorkFlow/WorkFlow";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +16,10 @@ export default function Home() {
       <Header />
       <Freelancer />
       <Category />
-      {/* <Services /> */}
+      <WorkFlow />
+      <Projects />
+      <Services />
+      <FreelancerBanner />
     </main>
   );
 }
