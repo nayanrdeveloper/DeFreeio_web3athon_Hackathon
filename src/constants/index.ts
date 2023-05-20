@@ -1,5 +1,8 @@
 import {
   CategoryType,
+  FooterItemType,
+  FooterSocialType,
+  FooterType,
   FreelancerType,
   NavItemType,
   ProjectType,
@@ -16,6 +19,12 @@ import {
   BsPencilSquare,
   BsGraphDownArrow,
 } from "react-icons/bs";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
 
 const navItems: NavItemType[] = [
   {
@@ -502,4 +511,156 @@ const serviceList: ServiceType[] = [
   },
 ];
 
-export { navItems, freelancerList, categoryList, projectList, serviceList };
+const footerPrivacyItems: FooterItemType[] = [
+  {
+    id: 1,
+    name: "Terms of Service",
+    route: "/",
+  },
+  {
+    id: 1,
+    name: "Privacy Policy",
+    route: "/",
+  },
+  {
+    id: 1,
+    name: "Site Map",
+    route: "/",
+  },
+];
+
+const socialMediaItems: FooterSocialType[] = [
+  {
+    id: 1,
+    name: "Facebook",
+    icon: FaFacebookF,
+    route: "/",
+  },
+  {
+    id: 1,
+    name: "Twitter",
+    icon: FaTwitter,
+    route: "/",
+  },
+  {
+    id: 1,
+    name: "Instagram",
+    icon: FaInstagram,
+    route: "/",
+  },
+  {
+    id: 1,
+    name: "Linkdin",
+    icon: FaLinkedinIn,
+    route: "/",
+  },
+];
+
+const footerCol1Items: FooterType = {
+  id: 1,
+  header: "About",
+  footerItems: [
+    {
+      id: 1,
+      name: "About Us",
+      route: "/",
+    },
+    {
+      id: 2,
+      name: "Become Seller",
+      route: "/",
+    },
+    {
+      id: 3,
+      name: "Services DeFreeio",
+      route: "/",
+    },
+    {
+      id: 4,
+      name: "Terms of Service",
+      route: "/",
+    },
+    {
+      id: 5,
+      name: "Jobs on DeFreeio",
+      route: "/",
+    },
+  ],
+};
+
+const footerCol2Items: FooterType = {
+  id: 1,
+  header: "Categories",
+  footerItems: [
+    {
+      id: 1,
+      name: "Design & Creative",
+      route: "/",
+    },
+    {
+      id: 2,
+      name: "Development & IT",
+      route: "/",
+    },
+    {
+      id: 3,
+      name: "Music & Audio",
+      route: "/",
+    },
+    {
+      id: 4,
+      name: "Programming & Tech",
+      route: "/",
+    },
+    {
+      id: 5,
+      name: "Digital Marketing",
+      route: "/",
+    },
+  ],
+};
+
+const footerCol3Items: FooterType = {
+  id: 1,
+  header: "Support",
+  footerItems: [
+    {
+      id: 1,
+      name: "Help & Support",
+      route: "/",
+    },
+    {
+      id: 2,
+      name: "FAQ DeFreeio",
+      route: "/",
+    },
+    {
+      id: 3,
+      name: "Contact Us",
+      route: "/",
+    },
+    {
+      id: 4,
+      name: "Services",
+      route: "/",
+    },
+    {
+      id: 5,
+      name: "Terms of Service",
+      route: "/",
+    },
+  ],
+};
+
+export {
+  navItems,
+  freelancerList,
+  categoryList,
+  projectList,
+  serviceList,
+  footerPrivacyItems,
+  socialMediaItems,
+  footerCol1Items,
+  footerCol2Items,
+  footerCol3Items,
+};

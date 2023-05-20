@@ -108,3 +108,22 @@ export type CompanyType = {
   phone: string;
   description: string;
 };
+
+export type FooterItemType = {
+  id: number;
+  name: string;
+  route: string;
+};
+
+export type FooterType = {
+  id: number;
+  header: string;
+  footerItems: FooterItemType[];
+};
+
+export type FooterSocialType = {
+  id: number;
+  name: string;
+  icon: IconType;
+  route: string;
+};
