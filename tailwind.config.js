@@ -27,6 +27,7 @@ module.exports = {
       },
       boxShadow: {
         "flow-card": "0px 6px 15px 0px rgb(64 79 104 / 9%)",
+        "freelance-card": "0 6px 15px 0 rgb(64 79 104 / 5%)",
       },
     },
   },
