@@ -127,3 +127,13 @@ export type FooterSocialType = {
   icon: IconType;
   route: string;
 };
+
+export type ProposalType = {
+  id: number;
+  title: string;
+  dateAgo: string;
+  proposal: string;
+  price: number;
+  duration: string;
+  image: string;
+};

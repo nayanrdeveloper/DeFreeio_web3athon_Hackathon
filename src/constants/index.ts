@@ -6,6 +6,7 @@ import {
   FreelancerType,
   NavItemType,
   ProjectType,
+  ProposalType,
   ServiceType,
 } from "@/types";
 import {
@@ -652,6 +653,41 @@ const footerCol3Items: FooterType = {
   ],
 };
 
+const proposalList: ProposalType[] = [
+  {
+    id: 1,
+    title: "Food Delivery Mobile App on IOS and Android",
+    dateAgo: "4 weeks ago",
+    duration: "in 55 hours",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer8.png",
+    price: 99,
+    proposal:
+      "I have 10 years experience in Frotned Development so please Accept me",
+  },
+  {
+    id: 2,
+    title: "Food Delivery Mobile App on IOS and Android",
+    dateAgo: "1 month ago",
+    duration: "in 4 hours",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer4.jpg",
+    price: 126,
+    proposal: "Fronted Developer adn my service are all time greate",
+  },
+  {
+    id: 3,
+    title: "Freelancer",
+    dateAgo: "1 Year ago",
+    duration: "in 10 Days",
+    image:
+      "https://demoapus1.com/freeio/wp-content/uploads/2022/10/employer8.png",
+    price: 230,
+    proposal:
+      "All time my service are greate so Enjoy your time all me the best",
+  },
+];
+
 export {
   navItems,
   freelancerList,
@@ -663,4 +699,5 @@ export {
   footerCol1Items,
   footerCol2Items,
   footerCol3Items,
+  proposalList,
 };
