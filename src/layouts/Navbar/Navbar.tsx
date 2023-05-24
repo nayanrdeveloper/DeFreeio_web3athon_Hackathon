@@ -9,9 +9,11 @@ function Navbar() {
     <nav className="">
       <div className="flex justify-between px-4 py-2">
         <div className="flex space-x-3 items-center">
+          <Link href={"/"}>
           <div className="relative w-28 h-20">
             <Image src={"/logo.png"} alt={"logo"} fill />
           </div>
+          </Link>
           <ul className="flex">
             {navItems.map(({ id, name, route }) => {
               return <NavItem key={id} id={id} name={name} route={route} />;

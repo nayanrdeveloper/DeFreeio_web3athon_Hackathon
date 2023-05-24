@@ -137,3 +137,9 @@ export type ProposalType = {
   duration: string;
   image: string;
 };
+
+export type AboutImageType = {
+  id: number;
+  image: string;
+  alt: string;
+};

@@ -10,7 +10,7 @@ function Projects() {
         title="Latest Projects"
         subTitle="Know your worth and find the project that qualify your life"
         browseTitle="Browse All"
-        route=""
+        route="/projects"
       />
       <div className="grid grid-cols-3 gap-x-8 gap-y-8 mt-5">
         {projectList.map(

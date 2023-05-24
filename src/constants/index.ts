@@ -1,4 +1,5 @@
 import {
+  AboutImageType,
   CategoryType,
   FooterItemType,
   FooterSocialType,
@@ -31,33 +32,33 @@ const navItems: NavItemType[] = [
   {
     id: 1,
     name: "Home",
-    route: "",
+    route: "/",
   },
   {
     id: 2,
     name: "Projects",
-    route: "",
+    route: "/projects",
   },
   {
     id: 3,
-    name: "Jobs",
-    route: "",
+    name: "Service",
+    route: "/services",
   },
   {
     id: 4,
     name: "Freelancers",
-    route: "",
+    route: "/freelancers",
   },
   {
     id: 5,
     name: "About",
-    route: "",
+    route: "/about",
   },
-  {
-    id: 6,
-    name: "Contact",
-    route: "",
-  },
+  // {
+  //   id: 6,
+  //   name: "Contact",
+  //   route: "",
+  // },
 ];
 
 const freelancerList: FreelancerType[] = [
@@ -688,6 +689,29 @@ const proposalList: ProposalType[] = [
   },
 ];
 
+const aboutImageList : AboutImageType[] = [
+  {
+    id: 1,
+    image: "https://demoapus1.com/freeio/wp-content/uploads/2022/09/about1.jpg",
+    alt: "About-1",
+  },
+  {
+    id: 2,
+    image: "https://demoapus1.com/freeio/wp-content/uploads/2022/09/about2.jpg",
+    alt: "About-2",
+  },
+  {
+    id: 3,
+    image: "https://demoapus1.com/freeio/wp-content/uploads/2022/09/about3.jpg",
+    alt: "About-3",
+  },
+  {
+    id: 4,
+    image: "https://demoapus1.com/freeio/wp-content/uploads/2022/09/about4.jpg",
+    alt: "About-4",
+  },
+];
+
 export {
   navItems,
   freelancerList,
@@ -700,4 +724,5 @@ export {
   footerCol2Items,
   footerCol3Items,
   proposalList,
+  aboutImageList,
 };

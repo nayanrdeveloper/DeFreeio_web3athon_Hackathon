@@ -10,7 +10,7 @@ function Freelancer() {
         title="Highest Rated Freelancers"
         subTitle="Lorem ipsum dolor sit amet, consectetur."
         browseTitle="All Freelancer"
-        route=""
+        route="/freelancers"
       />
       <div className="grid grid-cols-4 gap-2 mt-5">
         {freelancerList.map(

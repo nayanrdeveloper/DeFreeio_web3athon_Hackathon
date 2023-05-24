@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 
@@ -14,10 +15,13 @@ function GeneralHeader({ title, subTitle, browseTitle, route }: generalHeader) {
       <h3 className="text-4xl font-medium">{title}</h3>
       <div className="flex justify-between">
         <p className="text-muted">{subTitle}</p>
-        <div className="flex items-center">
+        <Link
+          href={route}
+          className="flex items-center cursor-pointer hover:text-primary-green duration-300 transition transform ease-out"
+        >
           <p>{browseTitle}</p>
           <BsArrowRightShort className="w-5 h-5" />
-        </div>
+        </Link>
       </div>
     </div>
   );

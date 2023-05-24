@@ -10,7 +10,7 @@ function Category() {
         title="Browse talent by category"
         subTitle="Get some Inspirations from 1800+ skills"
         browseTitle="All Categories"
-        route=""
+        route="/"
       />
       <div className="grid grid-cols-7 gap-2 mt-5">
         {categoryList.map((category) => {

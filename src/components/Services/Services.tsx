@@ -10,7 +10,7 @@ function Services() {
         title="Trending Service"
         subTitle="Most viewed and all-time top-selling services"
         browseTitle="All Services"
-        route=""
+        route="/services"
       />
       <div className="grid grid-cols-4 gap-x-8 gap-y-8 mt-5">
         {serviceList.map(
