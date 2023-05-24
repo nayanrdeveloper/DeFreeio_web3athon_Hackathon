@@ -1,17 +1,17 @@
 import { projectList } from "@/constants";
 import React from "react";
+import GeneralHeader from "../General/GeneralHeader";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
     <section className="px-4 py-10 bg-[#F0EFEC]">
-      <h3 className="text-4xl font-medium">Latest Projects</h3>
-      <div className="flex justify-between">
-        <p className="text-muted">
-          Know your worth and find the project that qualify your life
-        </p>
-        <p>Browse All</p>
-      </div>
+      <GeneralHeader
+        title="Latest Projects"
+        subTitle="Know your worth and find the project that qualify your life"
+        browseTitle="Browse All"
+        route=""
+      />
       <div className="grid grid-cols-3 gap-x-8 gap-y-8 mt-5">
         {projectList.map(
           ({

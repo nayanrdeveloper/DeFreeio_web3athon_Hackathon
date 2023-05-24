@@ -1,15 +1,17 @@
 import { categoryList } from "@/constants";
 import React from "react";
+import GeneralHeader from "../General/GeneralHeader";
 import CategoryCard from "./CategoryCard";
 
 function Category() {
   return (
     <section className="px-4 py-10">
-      <h3 className="text-4xl font-medium">Highest Rated Freelancers</h3>
-      <div className="flex justify-between">
-        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur.</p>
-        <p>All Category</p>
-      </div>
+      <GeneralHeader
+        title="Browse talent by category"
+        subTitle="Get some Inspirations from 1800+ skills"
+        browseTitle="All Categories"
+        route=""
+      />
       <div className="grid grid-cols-7 gap-2 mt-5">
         {categoryList.map((category) => {
           return (

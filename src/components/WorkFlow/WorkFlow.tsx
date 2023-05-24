@@ -4,7 +4,7 @@ import { BsSafe } from "react-icons/bs";
 
 function WorkFlow() {
   return (
-    <section className="bg-workflow-background py-28 px-10 h-[35rem] w-full relative">
+    <section className="bg-workflow-background py-28 px-10 h-[35rem] overflow-x-hidden">
       <div className="flex flex-col justify-center items-center -mr-[40rem]">
         <h6 className="font-semibold text-3xl">Need something done?</h6>
         <p className="text-sm">Most viewed and all-time top-selling services</p>

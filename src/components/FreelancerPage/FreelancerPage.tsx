@@ -1,18 +1,15 @@
 import { freelancerList } from "@/constants";
 import React from "react";
-import GeneralHeader from "../General/GeneralHeader";
-import FreelancerCard from "./FreelancerCard";
+import FreelancerCard from "../Freelancer/FreelancerCard";
 
-function Freelancer() {
+function FreelancerPage() {
   return (
-    <section className="px-4 py-10">
-      <GeneralHeader
-        title="Highest Rated Freelancers"
-        subTitle="Lorem ipsum dolor sit amet, consectetur."
-        browseTitle="All Freelancer"
-        route=""
-      />
-      <div className="grid grid-cols-4 gap-2 mt-5">
+    <div>
+      <div className="bg-service-background py-10 px-10 object-cover space-y-3">
+        <h5 className="font-medium text-3xl">Freelancers</h5>
+        <p>All the Lorem Ipsum generators on the Internet tend to repeat.</p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-5 py-6 px-4">
         {freelancerList.map(
           ({
             id,
@@ -65,8 +62,8 @@ function Freelancer() {
           }
         )}
       </div>
-    </section>
+    </div>
   );
 }
 
-export default Freelancer;
+export default FreelancerPage;

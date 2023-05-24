@@ -12,6 +12,7 @@ module.exports = {
         'header-background': "url('/header_background.jpg')",
         'freelance-background': "url('/freelance_bg.jpg')",
         'workflow-background': "url('/work_flow_bg.jpg')",
+        'service-background': "url('/service_bg.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
